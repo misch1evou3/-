@@ -78,9 +78,11 @@ def main():
                     if cho == 1:
                         search = input("請輸入課程名字或課程代碼")
                         school_student.add_course(search)
+                        print("已成功加選!")
                     if cho == 2:
                         search = input("請輸入課程名字或課程代碼")
                         school_student.drop_class(search)
+                        print("已成功退選!")
                     if cho == 3:
                         print("成功退出學生身分")
                         break
