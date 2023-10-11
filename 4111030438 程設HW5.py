@@ -59,7 +59,7 @@ class Bookstore():
             
     
 def main():
-    bookstore = Bookstore()  # 实例化 Bookstore 类
+    bookstore = Bookstore()  # 實例化 Bookstore 
     cart = []
        
     while True:
