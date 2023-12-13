@@ -25,7 +25,7 @@ def preprocess_data(data):
 
 
     
-    # 將性别映射為數字 映射函式.map()
+    # 將性别映射為數字 映射函式.map() 引數以字典作為映射對照
     data['Sex'] = data['Sex'].map({'male': 0, 'female': 1})
     
     # 提取船艙等級的前缀，並映射為數字
